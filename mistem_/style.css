@@ -1,0 +1,176 @@
+body {
+    scroll-behavior: smooth;
+    font-family: 'Times New Roman';
+}
+
+
+/* QUESTION 1 */
+
+#header-logo {
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: 0.5fr 1fr;
+    gap: 10px;
+}
+
+#header img {
+    padding-top: 1%;
+    width: 10%;
+    height: 20%;
+}
+
+#header-menu {
+    background-color: rgb(20, 55, 66);
+    display: grid;
+}
+
+#menu-header {
+    color: white;
+    float: left;
+    padding-left: 5%;
+    list-style: none;
+}
+
+#menu-header:hover {
+    color: pink;
+}
+
+#content {
+    display: grid;
+    grid-template-columns: 1fr 0.1fr 6fr;
+    max-height: 100%;
+    min-height: 120%;
+    height: 100vh;
+}
+
+#left-content h2 {
+    color: black;
+}
+
+#left-content {
+    color: rgb(125, 125, 224);
+}
+
+#left-content li {
+    font-size: 3vh;
+    list-style: none;
+    margin-left: 10%;
+}
+
+#image img {
+    max-width: 80%;
+    border-radius: 20px;
+}
+
+#left-content li:hover {
+    color: red;
+}
+
+input:hover {
+    background-color: red;
+}
+
+#between-content {
+    width: 2px;
+    height: 100%;
+    background-color: black;
+}
+
+#image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5%;
+    max-height: 55%;
+}
+
+#image1 {
+    background-color: gray;
+    border: 1px solid black;
+    text-align: center;
+    border-radius: 20px;
+}
+
+#footer {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+#footer u:hover {
+    color: blue;
+}
+
+#question1 {
+    background-color: rgb(212, 196, 179);
+}
+
+
+/* QUESTION 2 */
+
+#table {
+    position: relative;
+    background-image: url(image/image-question2.jpg);
+    margin-left: 30%;
+    border-collapse: collapse;
+    border: none;
+    border-radius: 10px;
+}
+
+#question2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(212, 196, 199);
+}
+
+#colum2 {
+    padding-bottom: 20%;
+    padding-top: 0%;
+}
+
+#submit {
+    text-align: right;
+}
+
+
+/* QUESTION 3 */
+
+.icon {
+    padding: 5px;
+    background: lightsteelblue;
+    color: rgb(19, 18, 18);
+    min-width: 20px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+#question3 {
+    background-color: whitesmoke;
+    margin-top: 0%;
+}
+
+#table2 {
+    margin-bottom: 20%;
+    margin-left: 20%;
+    border-collapse: collapse;
+    border: black;
+    text-align: center;
+}
+
+#header3 {
+    margin-left: 20%;
+}
+
+#header3 h1 {
+    color: tomato;
+}
+
+
+/* #table2 tr:nth-child(odd) {
+    background-color: gray;
+} */
+
+#table2 tr:nth-child(odd) {
+    background-color: lightslategrey;
+}
